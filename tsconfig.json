@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "typeRoots": ["./node_modules/@types"],
+
+    "rootDir": "src",
+    "outDir": "dist",
+    "lib": ["esnext", "dom"],
+
+    "pretty": true
+  }
+}
